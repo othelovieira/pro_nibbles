@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nibbles (Snake Game)</title>
+  <style>
+    body { background: #222; color: #eee; font-family: sans-serif; text-align: center; }
+    canvas { background: #111; display: block; margin: 0 auto; border: 2px solid #eee; }
+    #controls { margin: 20px 0; }
+    #scoreboard { font-size: 1.2em; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Nibbles (Snake Game)</h1>
+  <div id="scoreboard">Score: <span id="score">0</span> | Lives: <span id="lives">5</span></div>
+  <canvas id="game" width="800" height="500"></canvas>
+  <div id="controls">
+    <p>Controls: Arrow keys to move. P to pause.</p>
+  </div>
+  <script src="nibbles.js"></script>
+</body>
+</html>
